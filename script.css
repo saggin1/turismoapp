@@ -1,0 +1,204 @@
+body{
+    background-image: url(imagens/back.webp);
+    
+    
+}
+
+a p,a h5, a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+body, html{
+    overflow-x: hidden;
+}
+
+.brasil{
+    margin: 0 auto;
+    width: 80vw;   
+    display: block;
+    margin-bottom: 12vh;
+    margin-top: 10%;
+    
+}
+
+.card{
+    
+    text-align: center;
+    margin-left: 1rem;
+    
+}
+
+.carousel-inner{
+    width: 300px;
+    
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.548);
+}}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    
+    .brasil{
+        margin: 15% -154px;
+        height: 48vh;   
+        display: block;
+        
+    }
+    
+    .card{
+        
+        text-align: center;
+        margin-left: 1rem;
+        
+    }
+    
+    .carousel-inner{
+        width: 300px;
+        
+    }
+    
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+    
+    
+}
+   
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        body, html{
+            overflow-x: hidden;
+        }
+        
+        .brasil{
+            margin: 15% -80px;
+            width: 100vw;    
+            display: block;
+            
+        }
+        
+        .card{
+            
+            text-align: center;
+            margin-left: 1rem;
+            
+        }
+        
+        .carousel-inner{
+            width: 300px;
+            
+        }
+        
+        .carousel-caption{
+            background-color: rgba(0, 0, 0, 0.548);
+        }
+        
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+    body, html{
+        overflow-x: hidden;
+    }
+    
+    .brasil{
+        margin: -10%;
+        width: 100vw;   
+        display: block;
+        margin-bottom: 3vh;
+        margin-top: 10%;
+        
+    }
+    
+    .card{
+        
+        text-align: center;
+        margin-left: 1rem;
+        
+    }
+    
+    .carousel-inner{
+        width: 300px;
+        
+    }
+    
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.548);
+    }}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    
+    .brasil{
+        margin: 15% -300px;
+        width: 100vw;   
+        display: block;
+        
+    }
+    
+    .card{
+        
+        text-align: center;
+        margin-left: 1rem;
+        
+    }
+    
+    .carousel-inner{
+        width: 300px;
+        
+    }
+    
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    
+    .brasil{
+        margin: 15% -300px;
+        width: 100vw;   
+        display: block;
+        height: 100vh;
+        
+    }
+    
+    .card{
+        
+        text-align: center;
+        margin-left: 1rem;
+        
+    }
+    
+    .carousel-inner{
+        width: 300px;
+        
+    }
+    
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+}
+
+
