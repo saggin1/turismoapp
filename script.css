@@ -18,6 +18,13 @@ a:active{
 body, html{
     overflow-x: hidden;
 }
+carousel-caption{
+    width: 90%;
+}
+
+p{
+    font-size: 14px;
+}
 
 .brasil{
     margin: 0 auto;
@@ -26,11 +33,13 @@ body, html{
     margin-bottom: 12vh;
     margin-top: 10%;
     
+    
 }
 
 .card{
     
     text-align: center;
+    
     margin-left: 1rem;
     
 }
@@ -48,6 +57,9 @@ body, html{
 @media only screen and (min-width: 600px) {
     body, html{
         overflow-x: hidden;
+    }
+    p{
+        font-size: 14px;
     }
     
     .brasil{
@@ -80,6 +92,9 @@ body, html{
     @media only screen and (min-width: 600px) {
         body, html{
             overflow-x: hidden;
+        }
+        p{
+            font-size: 14px;
         }
         
         .brasil{
@@ -115,6 +130,9 @@ body, html{
     body, html{
         overflow-x: hidden;
     }
+    p{
+        font-size: 14px;
+    }
     
     .brasil{
         margin: -10%;
@@ -144,6 +162,9 @@ body, html{
 @media only screen and (min-width: 992px) {
     body, html{
         overflow-x: hidden;
+    }
+    p{
+        font-size: 14px;
     }
     
     .brasil{
@@ -175,7 +196,9 @@ body, html{
     body, html{
         overflow-x: hidden;
     }
-    
+    p{
+        font-size: 14px;
+    }
     .brasil{
         margin: 15% -300px;
         width: 100vw;   
